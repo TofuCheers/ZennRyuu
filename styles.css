@@ -1,0 +1,122 @@
+/* Styling dasar */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+  overflow: hidden;
+}
+
+/* Video background */
+.background video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Card styling */
+.profile-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Gambar profil */
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+  background: #ddd;
+}
+
+/* Teks */
+h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.location {
+  color: #555;
+  font-style: italic;
+}
+
+/* Statistik */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.stats div {
+  text-align: center;
+  width: 25%;
+}
+
+.stats h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.stats p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: #777;
+}
+
+/* Platform links */
+.platforms {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.platform {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.platform.instagram {
+  background: #e1306c;
+}
+
+.platform.youtube {
+  background: #ff0000;
+}
+
+.platform.twitch {
+  background: #9146ff;
+}
+
+.platform.osu {
+  background: #5865f2;
+}
+
+.platform:hover {
+  opacity: 0.8;
+}
